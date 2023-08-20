@@ -21,7 +21,7 @@ fxSession.mount('http://', HTTPAdapter(max_retries=fxRetries))
 fxWarDataAPI(fxSession, fxApiWarUrl, fxWarConquest)
 
 #Pull Map List (this only needs to be ran once per war or if data is not being cached for future use)
-fxWarMapListAPI(fxSession, fxApiWarMapsUrl, fxWarConquest)
+fxWarMapListDataAPI(fxSession, fxApiWarMapsUrl, fxWarConquest)
 
 #Pull Static Data (this only needs to be ran onc eper war or if the data is not being cached for future use)
 for mapName in fxWarConquest.fxWarMaps.maps:

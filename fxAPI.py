@@ -30,7 +30,7 @@ def fxWarDataAPI(fxSession, apiWarUrl, fxWarConquestData):
     fxWarConquestData.fxWarData.requiredVictoryTowns = fxWarDataAPISet["requiredVictoryTowns"]
 
 #API Function to call down War Map List
-def fxWarMapListAPI(fxSession, apiWarMapsUrl, fxWarConquestData):
+def fxWarMapListDataAPI(fxSession, apiWarMapsUrl, fxWarConquestData):
     print("Pulling Map List.")
     #Request Data
     fxWarMapAPIData_response = fxSession.get(apiWarMapsUrl)

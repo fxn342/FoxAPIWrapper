@@ -5,6 +5,10 @@ FoxAPIWrapper is a python wrapper for the official Foxhole API
 
 https://github.com/clapfoot/warapi
 
+**Discord for FoxAPIWrapper**
+
+https://discord.gg/NpEE3hwz
+
 The wrapper was built around the idea that a single object would store all Foxhole API data which can then be linked together using either the map name or region ID as a key.
 
 **Function Calls:**

@@ -9,6 +9,11 @@ https://github.com/clapfoot/warapi
 
 https://discord.gg/NpEE3hwz
 
+**To Do**
+
+Add logging library.
+
+
 The wrapper was built around the idea that a single object would store all Foxhole API data which can then be linked together using either the map name or region ID as a key.
 
 **Function Calls:**

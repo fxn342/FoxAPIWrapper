@@ -5,10 +5,6 @@ FoxAPIWrapper is a python wrapper for the official Foxhole API
 
 https://github.com/clapfoot/warapi
 
-**Discord for FoxAPIWrapper**
-
-https://discord.gg/NpEE3hwz
-
 **To Do**
 
 Add logging library.
